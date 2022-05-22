@@ -1,0 +1,21 @@
+{
+  "name": "mongoose-plugin-encryptor",
+  "version": "1.0.0",
+  "description": "A mongoose plugin to implement client side field encryption to mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "mongoose",
+    "encryption",
+    "mongoose-plugin",
+    "mongoose-plugin-encryptor"
+  ],
+  "author": "Utkarsh Mishra",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mongoose": "^6.3.3"
+  }
+}
