@@ -1,0 +1,6 @@
+{
+    "endOfLine": "lf",
+    "parser": "typescript",
+    "singleAttributePerLine": true,
+    "trailingComma": "all"
+}

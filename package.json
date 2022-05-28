@@ -16,6 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "chai": "^4.3.6",
+    "mongodb-client-encryption": "^2.1.0",
     "mongoose": "^6.3.3"
   }
 }
