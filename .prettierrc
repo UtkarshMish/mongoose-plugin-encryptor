@@ -1,6 +1,7 @@
 {
-    "endOfLine": "lf",
-    "parser": "typescript",
-    "singleAttributePerLine": true,
-    "trailingComma": "all"
+    "printWidth": 80,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "none",
+    "bracketSpacing": true
 }
