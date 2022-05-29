@@ -40,9 +40,11 @@ const TestSchema = new mongoose.Schema({
 });
 const SECRET =
   '12343ae4b2d178b3f00441788bcabb7d268c1c87c0139d233cb6e8d3be12866177420f0ea6c071a302d05f0599991a4ae8312673c3b824edf8b53ad5cd4f25111b0f4e1ecef74aee491d245f3dbc671d7e0413b3b3e710dac7d7b3ee9f0ea0c0';
+
 TestSchema.plugin(EncryptionPlugin, {
   secret: Buffer.from(SECRET, 'hex'),
 });
+
 const TestModel = mongoose.model('TestModel', TestSchema);
 
 async function saveItem() {

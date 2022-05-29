@@ -1,10 +1,10 @@
 {
   "name": "mongoose-plugin-encryptor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A mongoose plugin to implement client side field encryption to mongodb",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "node test/main.test.js"
   },
   "keywords": [
     "mongoose",
