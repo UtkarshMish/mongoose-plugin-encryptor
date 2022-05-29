@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
-const {EncryptionPlugin} = require('../lib');
-const crypto = require('crypto');
+const {EncryptionPlugin} = require('../index');
 const chai = require('chai');
 const expect = chai.expect;
 
