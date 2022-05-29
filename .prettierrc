@@ -1,7 +1,10 @@
 {
+    "arrowParens": "always",
+    "bracketSpacing": false,
+    "bracketSameLine": true,
     "printWidth": 80,
-    "semi": false,
+    "proseWrap": "never",
     "singleQuote": true,
-    "trailingComma": "none",
-    "bracketSpacing": true
+    "trailingComma": "all",
+    "semi": true
 }
