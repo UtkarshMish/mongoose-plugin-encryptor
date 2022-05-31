@@ -1,6 +1,6 @@
 {
   "name": "mongoose-plugin-encryptor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A mongoose plugin to implement client side field encryption to mongodb",
   "main": "index.js",
   "scripts": {
