@@ -18,7 +18,9 @@ To encrypt, the fields that are marked are automatically encrypted using `save` 
 
 ## Usage
 
-Generate and store 96 byte random hex as a secret and mention secret in the option.
+- Generate and store 96 byte random hex as a secret and mention secret in the option.
+- Use `Buffer.from(SECRET,"hex")` to set secret in plugin option
+- Mark fields that are encrypted as `encrypted: true` to notify plugin that field is encrypted
 
 ### Basic
 
@@ -42,7 +44,7 @@ const userSchema = new mongoose.Schema({
 
 
 userSchema.plugin(EncryptionPlugin, {
-  secret: process.env.SECRET, // set it in environment variable as hex string
+  secret: Buffer.from(process.env.SECRET,"hex"), // set it in environment variable as hex string
 
   algorithm: "AEAD_AES_256_CBC_HMAC_SHA_512-Deterministic", // algorithm for encrypting field
 
